@@ -20,7 +20,6 @@ public class HelloWorldBootApplication {
 		SpringApplication.run(HelloWorldBootApplication.class, args);
 	}
 
-}
 
 	/// Register Servlet.
 	@Bean
@@ -45,3 +44,4 @@ public class HelloWorldBootApplication {
 				new ServletListenerRegistrationBean(new HelloListener());
 		return listenerBean;
 	}
+}
